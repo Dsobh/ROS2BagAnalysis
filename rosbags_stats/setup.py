@@ -25,7 +25,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'frequency_node = frequency_node_py.frequency_node:main',
+            'frequency_node = rosbags_stats.frequency_node:main',
         ],
     },
 )
